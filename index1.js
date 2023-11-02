@@ -3,8 +3,10 @@ const http=require('http');
 const server=http.createServer(callback);
 
 let a=[];
-
+//new change
+//somenewchanges
 function callback(req,res){
+    //uyguy
     if(req.method=="GET"){
         res.write(JSON.stringify(a));
     }else if(req.method=="POST"){
